@@ -1,0 +1,61 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <title>Finds Car</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{% static 'css/blog2.css' %}">
+    </head>
+    
+     <body>
+
+	<div class="rodape"> </div>
+	<div class="linha"> </div>
+	<div class="home">
+
+		<h1><a href="/">Home</a></h1>
+	</div>	
+
+	<div class="comunidade">
+
+		<h1><a href="/">Fórum</a></h1>
+	</div>
+
+	<div class="finda">
+		 <h1><a href="/">Finds Your Car</a></h1>
+	</div>
+	<div class="sobre">
+		 <h1><a href="/">Sobre</a></h1>
+	</div>
+		<div class="linha1"> </div>
+
+		<button type="button" name="" value="" class="css3button">Pros/ Recomendação</button>
+		<button type="button" name="" value="" class="css3button1">Contra</button>
+		<button type="button" name="" value="" class="css3button2">Venda</button>
+		
+		<div class="label"> </div>
+		<div class="label1"> </div>
+		<div class="tags">Tags</div>
+		<div class="img1">
+	<img width="65px" height="65px" src="https://aprendaimportarfacilmente.com.br/wp-content/uploads/2016/11/grupo.png" vspace="-50px" hspace="0px" border="10px" align="left"/>
+		</div>
+		<div class="img">
+	<img width="150px" height="150px" src="https://images.vexels.com/media/users/3/137963/isolated/preview/feb9da6dec69ecdbdd1e52656cb84f7b--cone-de--cone-de-transporte-de-carro-by-vexels.png" vspace="-50px" hspace="0px" border="10px" align="left"/>
+		</div>
+	<a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+
+		<div class = "labelComunidade" <font color ="black"> No Fórum <b>Finds Car</b> é possivel encontrar todos <br/> os comentarios feitos por usuarios de carros. Faça vo- <br/>cê também seu comentario e ajude outros usuarios a <br/> encontrarem o carro perfeito!  </font></div>
+		<button type="button" name="" value="" class="css3button3">Contribua com o fórum!</button
+        <div class="content container">
+    	    <div class="row">
+    		    <div class="col-md-8">
+    		        {% block content %}
+    		        {% endblock %}
+            	    </div>
+           </div>
+       </div>
+		<div class="rodape1"> </div>
+    </body>
+	    
+</html>

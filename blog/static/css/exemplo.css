@@ -1,0 +1,15 @@
+.rodape{
+	
+	
+	position:absolute;
+	background-color:#befbbb;
+	padding: 0 6px;
+	width : 1360px;
+	height:100px;
+	margin: 50px;
+	top:-50px;
+	left:-50px;
+	border-color:red;
+	border-bottom-width:30px;
+
+}

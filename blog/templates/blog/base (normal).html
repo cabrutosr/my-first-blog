@@ -1,0 +1,49 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <title>Finds Car</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{% static 'css/blog1.css' %}">
+    </head>
+    
+     <body>
+
+	<div class="rodape">
+				
+				
+		</div>
+
+	<div class="linha">
+				
+				
+		</div>
+
+
+   	 
+	<div class="home">
+		<h1><a href="/">Home</a></h1>
+	</div>	
+	<div class="comunidade">
+		<h1><a href="/">Comunidade</a></h1>
+	</div>
+
+	<div class="finda">
+			 <h1><a href="/">Find</a></h1>
+				
+		</div>
+
+	<button type="button" name="" value="" class="css3button">submit</button>
+        
+        <div class="content container">
+    	    <div class="row">
+    		    <div class="col-md-8">
+    		        {% block content %}
+    		        {% endblock %}
+            	    </div>
+           </div>
+       </div>
+    </body>
+	    
+</html>

@@ -1,0 +1,149 @@
+h1 a {
+    font-family: 'Lobster';
+}
+
+
+
+.page-header {
+    background-color: #ff0000;
+    margin-top: -20;
+    padding: 20px 30px -100px 40px;
+}
+
+.page-header h1{
+    color: #ffffff;
+    font-size: 150pt;
+    text-decoration: none;
+}
+.page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 100pt;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 0px;
+}
+
+
+
+.date {
+    color: #828282;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 40px;
+}
+
+.post {
+    margin-bottom: 80px;
+}
+
+.post h1 a, .post h1 a:visited {
+    color: #000000;
+}
+
+.comunidade{
+  color: #000000;
+  position: relative;
+  top: -55px;
+  left: 900px;
+  width: 500px;
+}
+.home{
+  color: #00000f;
+  position: relative;
+  top: 5px;
+  left: 800px;
+  width: 500px;
+}
+.finda{
+	
+	color: #ffffff;
+  position: relative;
+  top: -110px;
+  left: 10px;
+  width: 500px;
+}
+.rodape{
+	
+	
+	position:absolute;
+	background-color:#befbbb;
+	padding: 0 6px;
+	width : 1366px;
+	height:100px;
+	margin: 50px;
+	top:-50px;
+	left:-50px;
+	border-color:red;
+	border-bottom-width:30px;
+
+}
+
+.linha{
+	position:absolute;
+	background-color:#000000;
+	padding: 0 0px;
+	width : 1366px;
+	height:10px;
+	margin: 50px;
+	top:40px;
+	left:-50px;
+	border-color:red;
+	border-bottom-width:30px;
+
+}
+
+
+
+
+button.css3button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #050505;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#ebebeb 50%,
+		#dbdbdb 50%,
+		#b5b5b5);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ffffff),
+		color-stop(0.50, #ebebeb),
+		color-stop(0.50, #dbdbdb),
+		to(#b5b5b5));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 3px solid #949494;
+	-moz-box-shadow:
+		1px 1px 3px rgba(000,000,000,0.4),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		1px 1px 3px rgba(000,000,000,0.4),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	box-shadow:
+		1px 1px 3px rgba(000,000,000,0.4),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+}
+ 
+
+
+
